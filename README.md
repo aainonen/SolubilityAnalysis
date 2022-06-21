@@ -23,9 +23,20 @@ Jupyter notebook contains my analysis using Python (Pandas) and machine learning
 
 ## EDA
 
-Highlights of EDA
+I started exploratory data analysis by creating a correlation matrix to understand which molecular 2D descriptors correlate with solubility.
+Strongest correlation factor with solubility was observed with MolMR (Molar refractivity, r = -0.42). MolWt (Molecular weight, r = -0.37),
+HeavyAtomCount (r = -0.35), NumValenceElectrons (r = -0.35) and Labute ASA (Labute's approximate surface area, r = -0.35) had the next
+strongest correlations.
 
 ![image](https://user-images.githubusercontent.com/48836327/174854206-2da396bd-ec64-469f-837e-bace7377ee79.png)
 
+Solubility_class has two values: "1" stands for "highly soluble" and "0" stands for all the other solubility classes.
+In Sorkun et al. (2019) article solubilites were categorized as:
+    - highly soluble: solubility values (0, positive infinite]
+    - soluble: solubility values (-2, 0]
+    - slightly soluble: solubility values (-4,-2]
+    - insoluble: solubility values (negative infine, -4]
+
+![image](https://user-images.githubusercontent.com/48836327/174857157-f46dedb7-4e77-4ce2-a8f1-19afbaa646d2.png)
 
 
