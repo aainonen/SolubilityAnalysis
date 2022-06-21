@@ -3,7 +3,7 @@
 Curated solubility database (Sorkun et al. 2019) was used as data source. Database contains 
 9982 molecule's curated solubility and molecular descriptor data.
 
-Jupyter notebook contains my analysis using Python (Pandas) and machine learning techniques (Skicit-learn).
+Jupyter notebook contains my analysis where I utilized Python (Pandas) and machine learning techniques (Skicit-learn library).
 
 ### Project overview:
 
@@ -40,5 +40,9 @@ I created these 4 solubility classes based on criteria established In Sorkun et 
 Bar chart is shown below to visualize the distributions of solubility values in database.
 
 ![image](https://user-images.githubusercontent.com/48836327/174857157-f46dedb7-4e77-4ce2-a8f1-19afbaa646d2.png)
+
+Below is also a Whisker plot to visualize how solubility values are distributed inside each solubility class.
+
+![image](https://user-images.githubusercontent.com/48836327/174858347-417c2f52-efc5-4ff3-8048-d18ef376a992.png)
 
 
