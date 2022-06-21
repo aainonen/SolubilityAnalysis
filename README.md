@@ -31,11 +31,13 @@ strongest correlations.
 ![image](https://user-images.githubusercontent.com/48836327/174854206-2da396bd-ec64-469f-837e-bace7377ee79.png)
 
 Solubility_class has two values: "1" stands for "highly soluble" and "0" stands for all the other solubility classes.
-In Sorkun et al. (2019) article solubilites were categorized as:
+I created these 4 solubility classes based on criteria established In Sorkun et al. (2019) article:
 - 'Highly soluble': solubility values (0, positive infinite]
 - 'Soluble': solubility values (-2, 0]
 - 'Slightly soluble': solubility values (-4,-2]
 - 'Insoluble': solubility values (negative infine, -4]
+
+Bar chart is shown below to visualize the distributions of solubility values in database.
 
 ![image](https://user-images.githubusercontent.com/48836327/174857157-f46dedb7-4e77-4ce2-a8f1-19afbaa646d2.png)
 
