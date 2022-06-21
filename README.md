@@ -10,6 +10,13 @@ Jupyter notebook contains my analysis using Python (Pandas) and machine learning
 - Handled data with Pandas-library (feature selection, categorical values coding)
 - Explored data by creating a correlation matrix, bar charts, whisker pltos and histograms
 - Performed PCA-analysis and visualization
-- Modelled solubility with Skicit-learn regression algorithms
+- Modeled solubility with Skicit-learn regression algorithms
     - Skicit-learn model_selection package to split data into training and testing subsets (20 % test)
-    - fd
+    - Skicit-learn preprocessing package to scale data
+    - Tested six different regression algorithms on their solubility prediction accuracy
+    - Best accuracy found with an ensemble voting regressor (MAE = 0.4 and r2 = 0.67)
+    - Trained neural network performed the second best (MAE = 0.41 and r2 = 0.65)
+ - Predicted molecule's solubility class (i.e. 'Insoluble', 'Slightly soluble', 'Soluble', 'Highly soluble')
+    - 64 % classification accuracy when predicted solubility-values were converted to corresponding solubility class
+    - 82 % classification accuracy when predicting whether molecule in poorly soluble (0) or soluble (1)
+        - 'Insoluble' and 'Slightly soluble' were assigned to poorly soluble class, and 'Soluble' and 'Highly soluble' were assgined to soluble class
