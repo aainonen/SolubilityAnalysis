@@ -20,3 +20,12 @@ Jupyter notebook contains my analysis using Python (Pandas) and machine learning
     - 64 % classification accuracy when predicted solubility-values were converted to corresponding solubility class
     - 82 % classification accuracy when predicting whether molecule in poorly soluble (0) or soluble (1)
         - 'Insoluble' and 'Slightly soluble' were assigned to poorly soluble class, and 'Soluble' and 'Highly soluble' were assgined to soluble class
+
+## EDA
+
+Highlights of EDA
+
+![image](https://user-images.githubusercontent.com/48836327/174854206-2da396bd-ec64-469f-837e-bace7377ee79.png)
+
+
+
