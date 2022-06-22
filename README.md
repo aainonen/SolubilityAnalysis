@@ -69,11 +69,11 @@ actual solubility values (y_test). Solubility class prediction accuracy was test
 ![image](https://user-images.githubusercontent.com/48836327/174961880-b5f18c5b-c995-4a3d-9dae-cd0627545e7e.png)
 
 Only 64 % class prediction accuracy was obtained. But how much better classification accuracy could we get, if it would be good enough to know
-whether molecule is poorly soluble or well soluble?
+whether molecule is just poorly soluble or well soluble?
 
 Solubility classes would therefore be:
-    - Insoluble and slightly soluble molecules have solubility class code 0 (=poorly soluble)
-    - Soluble and highly soluble molecules have solubility class code 1 (=well soluble)
+- Insoluble and slightly soluble molecules have solubility class code 0 (=poorly soluble)
+- Soluble and highly soluble molecules have solubility class code 1 (=well soluble)
 
 ![image](https://user-images.githubusercontent.com/48836327/174962383-d691371d-a020-48e1-932a-213fe7dc2c47.png)
 
