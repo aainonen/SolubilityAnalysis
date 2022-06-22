@@ -52,4 +52,19 @@ Below is PCA visualization. Three formed principal components can separate the s
 
 ## Modeling solubility
 
-Modeled solubility.
+Best accuracy was found with ensemble voting regression.
+
+![image](https://user-images.githubusercontent.com/48836327/174958981-231d288c-87c0-40cf-8e50-33a76e2c4e55.png)
+
+Below is scatter plot of predicted vrs actual solubilities.
+
+![image](https://user-images.githubusercontent.com/48836327/174960295-5398edfd-9dc1-447d-b872-bb63565b5f26.png)
+
+Following machine learning algorithms were tested from Skicit-learn library. Further work on project should involve improving
+the models by optimizing their parameters.
+
+![image](https://user-images.githubusercontent.com/48836327/174960724-ad876852-70b1-4502-9ca0-5ef6d06f2934.png)
+
+
+
+
