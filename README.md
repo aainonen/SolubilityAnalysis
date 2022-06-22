@@ -63,8 +63,6 @@ Below is scatter plot of predicted vrs actual solubilities.
 Following machine learning algorithms were tested from Skicit-learn library. Further work on project should involve improving
 the models by optimizing their parameters.
 
-![image](https://user-images.githubusercontent.com/48836327/174960724-ad876852-70b1-4502-9ca0-5ef6d06f2934.png)
-
-
+![image](https://user-images.githubusercontent.com/48836327/174960856-6d5d3798-794f-4a96-8660-f440573cc7eb.png)
 
 
