@@ -45,7 +45,7 @@ Below is also a Whisker plot to visualize how solubility values are distributed 
 
 ![image](https://user-images.githubusercontent.com/48836327/174858347-417c2f52-efc5-4ff3-8048-d18ef376a992.png)
 
-Below is PCA visualization. Three formed principal components can separate the solubility classess.
+Below is PCA visualization. Three principal components can separate the solubility classess.
 
 ![solubility PCA](https://user-images.githubusercontent.com/48836327/174958138-c2307e34-3dea-4562-9eb5-05dd2728144d.png)
 
